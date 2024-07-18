@@ -6,12 +6,12 @@ import { SidebarContainer,
         SidebarMenu,
         SidebarLink,
         SideBtnWrap,
-        SidebarRoute} from './SidebarElements'
+        SidebarRoute} from './SidebarElements';
 
 
 const Sidebar = ({isOpen, toggle}) => {
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle} >
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon onClick={toggle}>
             <CloseIcon />
         </Icon>
@@ -27,7 +27,7 @@ const Sidebar = ({isOpen, toggle}) => {
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
-  )
-}
+  );
+};
 
 export default Sidebar
