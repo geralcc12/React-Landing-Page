@@ -26,7 +26,7 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
         </HeroBg>
         <HeroContent>
-            <HeroH1>Virual Banking Made Easy</HeroH1>
+            <HeroH1>Virtual Banking Made Easy</HeroH1>
             <HeroP>
                 Sign up for new account today and receive $250 In
                 credit towards your 
@@ -37,7 +37,7 @@ const HeroSection = () => {
                 onMouseEnter={onHover} 
                 onMouseLeave={onHover}
                 primary='true'
-                dark='false'
+                dark='true'
                 >
                     Get started {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
