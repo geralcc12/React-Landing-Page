@@ -7,8 +7,8 @@ import { homeObjOne, homeObjThree, homeObjTwo } from '../components/infoSection/
 import Services from '../components/Services';
 import Footer from '../components/Footer';
 
-
-const SigninPage = () => {
+const Home = () => {
+    const [isOpen, setIsOpen]   = useState(false);
     
     const toggle = () => {
       setIsOpen(!isOpen) 
@@ -28,4 +28,4 @@ const SigninPage = () => {
   )
 }
 
-export default SigninPage;
+export default Home
