@@ -15,21 +15,21 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services" >
-        <ServicesH1>Our Services</ServicesH1>
+        <ServicesH1>Tus Servicios</ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
                 <ServicesIcon src={Icon1} />
-                <ServicesH2>Service 1</ServicesH2>
+                <ServicesH2>Servicio 1</ServicesH2>
                 <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}  />
-                <ServicesH2>Service 2</ServicesH2>
+                <ServicesH2>Servicio 2</ServicesH2>
                 <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3} />
-                <ServicesH2>Service 3</ServicesH2>
+                <ServicesH2>Servicio 3</ServicesH2>
                 <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ServicesP>
             </ServicesCard>
         </ServicesWrapper>

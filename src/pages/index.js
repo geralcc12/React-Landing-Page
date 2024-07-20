@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/infoSection';
 import { homeObjOne, homeObjThree, homeObjTwo } from '../components/infoSection/Data';
 import Services from '../components/Services';
+import Footer from '../components/Footer';
 
 const Home = () => {
     const [isOpen, setIsOpen]   = useState(false);
@@ -19,8 +20,9 @@ const Home = () => {
     <HeroSection/>
     <InfoSection {...homeObjOne} />
     <InfoSection {...homeObjTwo} />
-    <Servicesces/>
+    <Services/>
     <InfoSection {...homeObjThree} />
+    <Footer/>
     </>
   )
 }
