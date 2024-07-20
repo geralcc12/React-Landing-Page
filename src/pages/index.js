@@ -10,6 +10,10 @@ import Footer from '../components/Footer';
 
 const SigninPage = () => {
     
+    const toggle = () => {
+      setIsOpen(!isOpen) 
+    }
+    //holatically
   return (
     <>
     <Sidebar isOpen={isOpen} toggle={toggle}/>
