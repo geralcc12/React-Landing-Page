@@ -13,6 +13,7 @@ const Home = () => {
     const toggle = () => {
       setIsOpen(!isOpen) 
     }
+    //holatically
   return (
     <>
     <Sidebar isOpen={isOpen} toggle={toggle}/>
