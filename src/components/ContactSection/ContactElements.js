@@ -197,4 +197,6 @@ export const Label = styled.label`
   max-width: 540px;
     padding-top: 0;
     color: #010606;
+    font-size: 18px;
+    font-family: 'Encode Sans Expanded';
 `;
