@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/servicios
+Content-Type: application/json
+
+{
+    "nombre": "servicios",
+    "email": "Geral.casas@gmail.com",
+    "mensaje": "Quiero comunicarme contigo"
+}
+
+###
+GET http://localhost:5000/api/servicios

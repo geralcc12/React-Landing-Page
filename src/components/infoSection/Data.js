@@ -48,4 +48,18 @@ export const homeObjThree = {
     primary: true,
     darkText: false
 }
-
+export const homeObjFour = {
+    id: 'contact',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Zona de contacto',
+    headline: 'Contactenos para mas informacion sobre el servicio',
+    description: 'mejore su empresa',
+    buttonLabel: 'Inicie Ahora',
+    imgStart: false,
+    alt: 'Car',
+    dark: false,
+    primary: false,
+    darkText: true
+}
