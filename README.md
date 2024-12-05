@@ -26,18 +26,18 @@ Este es un proyecto de **Landing Page** interactiva creada con **React** y **Nod
 
 Para ejecutar este proyecto en tu máquina local, sigue los pasos a continuación:
 
-1. Clona este repositorio:
-    git clone https://github.com/geralcc12/react-website.git
+**1. Clona este repositorio:**
+git clone https://github.com/geralcc12/react-website.git
 
-2. Navega al directorio del proyecto:
+**2. Navega al directorio del proyecto:**
     cd react-website
 
-3. instala dependencias:
+**3. instala dependencias:**
     npm install
 
-4. Para iniciar el servidor backend, navega al directorio backend:
+**4. Para iniciar el servidor backend, navega al directorio backend:**
     cd backend
 
-5. Ejecuta el proyecto en el frontend:
+**5. Ejecuta el proyecto en el frontend:**
     npm start
 
