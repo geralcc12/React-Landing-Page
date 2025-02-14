@@ -41,3 +41,7 @@ git clone https://github.com/geralcc12/react-website.git
 **5. Ejecuta el proyecto en el frontend:**
     npm start
 
+## VIsualizar sitio Wwb
+
+**Puede dar click en el siguiente enlace:**
+    SItio web desplegado: https://geralcc12.github.io/React-Landing-Page/

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://geralcc12.github.io/react-website/",
+  "homepage": "https://geralcc12.github.io/React-Landing-Page/",
   "name": "react-website-smooth-scroll-yt",
   "version": "0.1.0",
   "private": true,
@@ -51,6 +51,6 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
